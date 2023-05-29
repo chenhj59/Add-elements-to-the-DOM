@@ -4,7 +4,7 @@ final InputElement toDoInput = querySelector('#to-do-input') as InputElement;
 final UListElement toDoList = querySelector('#to-do-list') as UListElement;
 
 void main() {
-  querySelector('#output')?.text = 'Your Dart app is running.';
+  toDoInput.onChange.listen(addToDoItem);
 }
 
 void addToDoItem(Event e) {
