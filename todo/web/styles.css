@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
-body {
+html, body {
   font-family: 'Roboto', sans-serif;
   background-color: WhiteSmoke;
   margin: 15px;
